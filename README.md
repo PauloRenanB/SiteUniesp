@@ -15,13 +15,14 @@ Dentro de “src” temos:
    “assets”: é a pasta onde armazenamos imagens, fontes etc de forma privada.
 
    “components”: é onde ficam armazenados os componentes de nosso projeto, aquele código que iremos reutilizar sem precisar ficar criando outros arquivos, evitando um retrabalho.
+   Dentro de components temos os arquivos BannerAd.jsx para a propaganda e a NavBar.jsx para a nossa barra superior. Ambas estão sendo usadas em todas as páginas sem a necessidade de serem reescritas.
 
-   “pages”: onde ficam as nossas páginas do projeto.
+   “pages”: onde ficam as nossas páginas do projeto. Temos as paginas DpoLgpd, Noticias, Faculdade, Inicial e Visualizar Noticias. Todas sendo devidamente roteadas no App.jsx e podendo ser utilizadas clicando na barra superior (NavBar).
    
    “admin”: funcionalidades dos admins.
 
 
-“data”: na pasta data nós criamos um Banco de Dados falso, utilizando um arquivo JSON.
+“data”: na pasta data nós criamos um Banco de Dados falso, utilizando o arquivo db.json.
 
 “node modules”: onde ficam todos os arquivos criados pelo npm install.
 
